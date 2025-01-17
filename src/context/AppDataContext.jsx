@@ -6,52 +6,16 @@ import { getAllImages } from '../utils/imageUtils';
 const initialHomeData = {
   heroImage: "/placeholder-hero.jpg",
   heroTitle: "Welcome to My Decoration Services",
-  heroText: `I am a highly experienced and detailoriented Finishing and Decoration
-Technician and Contractor with over 37
-years of expertise in delivering highquality interior and exterior finishing
-solutions. Specializing in painting, tiling,
-carpentry, electrical works, plumbing,
-gypsum board, and GRC installations, I
-have successfully completed numerous
-projects with exceptional
-craftsmanship, meeting deadlines and
-staying within budgets.
-With extensive knowledge in material
-selection, team management, and
-innovative problem-solving, I ensure
-seamless project execution while
-prioritizing client satisfaction. My goal
-is to transform spaces into functional
-and aesthetically pleasing
-environments with a focus on cost
-efficiency, sustainability, and attention
-to detail.
+  heroText: `أنا فني ومقاول تشطيبات وديكور ماهر ودقيق، أتمتع بخبرة تمتد لأكثر من [عدد السنوات] في تقديم حلول تشطيبات داخلية وخارجية عالية الجودة. متخصص في الطلاء، التبليط، النجارة، الأعمال الكهربائية، السباكة، الجبس بورد، وتركيبات الـ GRC. لدي سجل حافل بإتمام المشاريع في الوقت المحدد وضمن الميزانية وبأعلى معايير الحرفية.
+أتميز بخبرة في اختيار المواد وإدارة الفرق وحل المشكلات بطرق مبتكرة، مما يضمن تنفيذ المشاريع بسلاسة مع التركيز على رضا العملاء. هدفي هو تحويل المساحات إلى بيئات وظيفية وجمالية مع الحفاظ على الكفاءة في التكلفة والاستدامة والعناية بالتفاصيل.
 `,
 };
 
 const initialAboutData = {
   profileImage: "/profile.jpg",
-  name: "Yehia Mahmoud",
-  background: `I am a highly experienced and detailoriented Finishing and Decoration
-Technician and Contractor with over 37
-years of expertise in delivering highquality interior and exterior finishing
-solutions. Specializing in painting, tiling,
-carpentry, electrical works, plumbing,
-gypsum board, and GRC installations, I
-have successfully completed numerous
-projects with exceptional
-craftsmanship, meeting deadlines and
-staying within budgets.
-With extensive knowledge in material
-selection, team management, and
-innovative problem-solving, I ensure
-seamless project execution while
-prioritizing client satisfaction. My goal
-is to transform spaces into functional
-and aesthetically pleasing
-environments with a focus on cost
-efficiency, sustainability, and attention
-to detail.
+  name: "يحى محمود",
+  background: `أنا فني ومقاول تشطيبات وديكور ماهر ودقيق، أتمتع بخبرة تمتد لأكثر من [عدد السنوات] في تقديم حلول تشطيبات داخلية وخارجية عالية الجودة. متخصص في الطلاء، التبليط، النجارة، الأعمال الكهربائية، السباكة، الجبس بورد، وتركيبات الـ GRC. لدي سجل حافل بإتمام المشاريع في الوقت المحدد وضمن الميزانية وبأعلى معايير الحرفية.
+أتميز بخبرة في اختيار المواد وإدارة الفرق وحل المشكلات بطرق مبتكرة، مما يضمن تنفيذ المشاريع بسلاسة مع التركيز على رضا العملاء. هدفي هو تحويل المساحات إلى بيئات وظيفية وجمالية مع الحفاظ على الكفاءة في التكلفة والاستدامة والعناية بالتفاصيل.
 `,
   qualifications: [
     "Certified Professional Decorator",

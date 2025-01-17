@@ -22,14 +22,14 @@ const AboutPage = () => {
             <p className="text-gray-700 mb-4 leading-relaxed">
               {aboutData.background}
             </p>
-            <div className="border-t border-gray-300 pt-4 mt-4">
+            {/* <div className="border-t border-gray-300 pt-4 mt-4">
               <h3 className="text-lg font-semibold mb-2">Qualifications</h3>
               <ul className="text-gray-700 space-y-1 list-disc list-inside">
                 {aboutData.qualifications.map((qual, idx) => (
                   <li key={idx}>{qual}</li>
                 ))}
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
