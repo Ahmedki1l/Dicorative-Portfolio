@@ -11,11 +11,11 @@ const AboutPage = () => {
       <div className="bg-white bg-opacity-90 shadow-lg rounded-lg overflow-hidden">
         <div className="md:flex">
           <div className="md:flex-shrink-0">
-            {/* <img
+            <img
               src={aboutData.profileImage}
               alt="Profile"
               className="h-48 w-full object-cover md:w-48"
-            /> */}
+            />
           </div>
           <div className="p-8 text-gray-800">
             <h2 className="text-2xl font-semibold mb-4">{aboutData.name}</h2>
